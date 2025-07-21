@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Hey i am a box
+            Hey i am a box
+        </div>
+
+        <script>
+            // let div = document.createElement("div");
+            // div.innerHTML = "Hey i am inserted <b>by karam </b>"
+            // div.setAttribute("class","created")
+            // document.querySelector(".container").prepend(div);
+
+            let cont = document.querySelector(".container")
+            cont.insertAdjacentHTML("beforebegin","<b>hey i im Karan</b>")
+
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container{
+            background-color: rgb(177, 227, 227);
+            height: 80vh;
+            width: 30vw;
+
+
+        }
+
+        .box{
+            width: 34px;
+            height: 45px;
+            /* background-color: aqua;
+            animation-name: KarankaAnimation;
+            animation-duration: 3s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear(0 0%, 0.03 22.99%);
+            animation-play-state:paused; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation:  KarankaAnimation 3s ease-in-out 3s  1 backwards;
+
+
+        }
+        @keyframes KarankaAnimation {
+            from{
+                background-color: red;
+
+            }
+            to{
+                background-color: yellow;
+                transform: translateX(100vw);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+</html>

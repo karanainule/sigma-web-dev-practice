@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+
+            display: flex;
+            align-items: center;
+            margin: 0px 14px;
+            padding: 0;
+            border-radius: 4px;
+            height: 200px;
+            background-color: black;
+            position: relative;
+
+        }
+
+        .thumbnail {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            display: flex;
+            background-color: red;
+            width: 300px;
+            height: 200px;
+
+        }
+
+        .image {
+            left: 0.1vw;
+
+            border-radius: 20px;
+            margin: 5px;
+
+            object-fit: contain;
+
+        }
+
+        .duration {
+            background-color: rgb(32, 30, 30);
+            position: fixed;
+            height: 20px;
+            width: 40px;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 10px;
+            right: -30px;
+        }
+
+        .title {
+            color: aliceblue;
+            position: absolute;
+            font-size: 50px;
+
+        }
+
+        .info {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cart">
+            <div class="thumbnail">
+                <img class="image"
+                    src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDf-xrqgUw55JSfKsoykKVhngkzRA"
+                    alt="">
+                <div class="duration"></div>
+            </div>
+            <div class="info">
+                <div class="title">hello</div>
+                <div class="details">
+                    <p>cNAME</p>
+                    <p>views</p>
+                    <p>monthsOld</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

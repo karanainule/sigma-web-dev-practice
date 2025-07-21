@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexboxt</title>
+    <style>
+        .container {
+            border: 2px solid red;
+            display:flex;
+            height: 80vh;
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* flex-direction: column; */
+            flex-wrap: row wrap;
+            gap: 30px 10px;
+
+
+        }
+
+        .item {
+            height: 92px;
+            width: 92px;
+            border: 2px solid black;
+            /* margin: 4px; */
+            background-color: aquamarine;
+            
+
+
+
+        }
+        .flexgrow{
+            flex-grow: 4;
+            flex-shrink: 2;
+            align-self: flex-end;
+        }
+        .order1{
+            order: 1;
+        }
+        .order2{
+            order: 2;
+        }
+        .order3{
+            order: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="item flexgrow">1</div>
+        <div class="item order2">2</div>
+        <div class="item order3">3</div>
+        <div class="item">4</div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>    
+       
+    </div>
+</body>
+
+</html>

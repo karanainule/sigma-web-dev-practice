@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download Confirmation</title>
+    <link rel="stylesheet" href="style.js">
+    <style>
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
+        }
+        .popup-content {
+            text-align: center;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="download-popup" class="popup">
+        <div class="popup-content">
+            <h2>Download Confirmation</h2>
+            <p>A file with the same name already exists on your device. Do you want to continue the download?</p>
+            <button id="continue-download" class="button">Continue Download</button>
+            <button id="cancel-download" class="button">Cancel Download</button>
+        </div>
+    </div>
+</body>
+</script>
