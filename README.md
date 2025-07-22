@@ -23,7 +23,6 @@ This repository contains my personal code and hands-on exercises from the [Sigma
 This repository is for **educational purposes only**. It contains code I wrote while following CodeWithHarry's Sigma Web Dev Course. No copyrighted video or course material is included.
 
 ## 🔗 Course Link
-- [CodeWithHarry - Sigma Web Development Course (Website)](https://www.codewithharry.com/tutorial/web-dev/)
 - [YouTube Playlist](https://youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&si=IhnGOZpGwRuXjzP6)
 
 ---
