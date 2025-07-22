@@ -28,16 +28,32 @@
 
 
 
-age = prompt("enter age")
+function checkprime() {
 
-if (age < 18) {
-    alert("you can not enter to site !")
+    let n = prompt("enter Number")
+    if (n < 0) {
+        console.error("enter number greater than 0");
 
+
+    }
+    if (n == 1 || n == 0) {
+        return console.log("not prime")
+    }
+    for (let i = 2; i < n; i++) {
+
+
+
+        if (n % i == 0) {
+            return console.log("not prime")
+
+
+        }
+        
+        else 
+        {
+            return console.log("prime")
+        }
+
+    }
 }
-else {
-    alert("you can  enter to site !")
-    document.body.style.background = "blue";
-    // window.location.href = "https://www.google.com/"; 
-    // it redirect to the new page
-
-}
+checkprime()
