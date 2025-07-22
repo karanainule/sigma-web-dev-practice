@@ -27,4 +27,4 @@ This repository is for **educational purposes only**. It contains code I wrote w
 
 ---
 
-Let’s connect: [LinkedIn](https://www.linkedin.com/in/karanainule)
+Let’s connect: [LinkedIn](https://www.linkedin.com/in/karan-ainule)
